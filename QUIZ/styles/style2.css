@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+
+}
+
+.container {
+    background: linear-gradient(to bottom right, #1f2847, 30%, #023463);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    font-weight: 10;
+    font-size: 40px;
+    color: beige;
+    margin-bottom: 20px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.preguntas {
+    text-align: center;
+    margin: 15px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*.btn{
+    
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(to bottom right,hsl(209, 80%, 57%),60%,#73a3eb);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}*/
+.button {
+    width: 100%;
+    height: 60px;
+    background-color: #70a9ff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom right, #0a6bc5, 60%, #0182fa);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #576081;
+}
+
+.elecciones {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+}
+footer {
+    position: relative;
+    margin: 140px auto;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+    color:rgb(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 15px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+}
+.quiz {
+    text-align: center;
+    margin: 15px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
